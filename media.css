@@ -1,0 +1,204 @@
+       /* large screen */
+
+@media screen and (max-width:991px){
+    
+   .nav-toggle{
+        display: block;
+        margin-right: 20px;
+   
+}
+
+
+.nav-links{
+position: absolute;
+background-color: white;
+left: -100%;
+top:100%;
+width: 100%;
+padding-block:40px ; 
+transition: 0.2s ease-in-out;
+
+}
+
+.nav-links.active{
+    left: 0;
+} 
+
+.nav-links ul {
+flex-direction: column;
+gap: 20px;
+
+   
+}
+   
+.navbar{
+    overflow: initial;
+}
+
+}
+
+
+
+
+
+ /* medium screen */
+
+@media  screen and (max-width:768px) {
+   
+    .nav-toggle{
+        display: none;
+       
+   
+}
+
+    .logo img{
+    display: block;
+     width: 100%;
+     padding: 40px;
+        
+    }
+    
+   
+.left-section {
+    font-size:32px ;
+    width: 500px;
+    text-align: center;
+   }
+
+   .first-section >  div{
+    width: 100%;
+}
+
+   .first-section{
+   flex-direction: column-reverse;
+}
+
+.right-section img{
+    width: 100%;
+    
+    }
+
+    .about{
+        display: flex;
+      justify-content: center;
+        align-items: center;
+      flex-direction: column-reverse;
+      padding: 20px;
+    }
+  
+    .about-text h2 {
+        font-size: 32px;
+    }
+    .about-text p{
+    
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+    
+
+    #services{
+    
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .sub-title{
+        
+        font-size: 32px;
+        padding: 20px;
+    
+    }
+
+    .container{
+        padding: 50px;
+    }
+    
+    .skills-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skills-text{
+        padding: 100px 0;
+         
+       }
+
+       .skills-text h2{
+        font-size: 32px;
+        
+       }
+
+       .skills-row img{
+        padding-top: 50px ;
+        display: block;
+       
+    }
+
+    .main-text h2{
+        font-size: 32px;
+        padding: 50px 0 ;
+       }
+
+       .contact-text h2{
+        font-size: 32px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .contact{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 30px;
+        margin-top: 100px;
+    }
+    
+    .contact-text p {
+       
+        font-size: 16px;
+       margin-bottom: 1rem;
+    }
+    
+
+    footer{
+        
+        margin: 10px 0;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+      /* small screen */
+
+@media  screen and (max-width:479px) {
+
+
+   
+
+}
