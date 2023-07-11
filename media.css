@@ -63,7 +63,8 @@
          font-size:26px ;
          width: 500px;
          text-align: center;
-         margin-top:-90px ;
+         position: absolute;
+       
         }
      
         .hero-section >  div{
@@ -78,7 +79,8 @@
      
      .hero-right-section img{
          width: 100%;
-         margin-top: -30px;
+         position: absolute;
+         margin-top: -35px;
          
          }
      
@@ -94,33 +96,56 @@
        
          .about-text h2 {
              font-size: 32px;
+            
          }
          .about-text p{
          
              font-size: 16px;
-             line-height: 1.4;
+             line-height: 1;
              margin-bottom: 2rem;
+            
          }
          
      
          #services{
-         
-             font-size: 16px;
-             line-height: 1;
-             margin-bottom: 0.5rem;
-         }
-     
-         .sub-title{
-             
-             font-size: 32px;
-             padding: 20px;
-         
-         }
-     
-         .container{
-             padding: 50px;
-         }
-         
+    
+            font-size: 16px;
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+        .sub-title{
+            text-align: center;
+            font-size: 32px;
+            padding: 20px 50px;
+        
+        }
+        
+        .container{
+            padding: 40px;
+        }
+
+        .services-list div{
+            
+            padding: 40px;
+            font-size: 12px; 
+        }
+
+        .services-list div i {
+            font-size: 32px;
+            
+        }
+
+        .services-list div h2 {
+            font-size: 26px;
+           
+            margin-bottom: 10px;
+        }
+
+
+
+
+
          .skills-content{
              display: flex;
              justify-content: center;
@@ -152,7 +177,7 @@
             .contact-text h2{
              font-size: 32px;
              line-height: 1;
-             text-align: center;
+            
          }
      
          .contact{
@@ -160,17 +185,17 @@
             align-items: center;
             justify-content: center;
              flex-direction: column;
-             gap: 1rem;
-             padding-left: 30px;
-             margin-top: 100px;
+             gap: 10px;
+             
+             
          }
          
          .contact-text p {
             
              font-size: 16px;
-            margin-bottom: 1rem;
+            margin-bottom: 20px;
          }
-         
+        
      
          footer{
              
