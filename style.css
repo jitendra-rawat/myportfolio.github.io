@@ -76,7 +76,7 @@ nav ul li a:hover{
 
 
 
-.first-section{
+.hero-section{
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
@@ -85,11 +85,11 @@ nav ul li a:hover{
     color: white;
 }
 
-.first-section >  div{
+.hero-section >  div{
     width: 40%;
 }
 
-.left-section {
+.hero-left-section {
  font-size:3rem ;
 }
 
