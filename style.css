@@ -83,6 +83,7 @@ nav ul li a:hover{
     align-items: center;
     background-color: var(--primary-color);
     color: white;
+    height: 730px;
 }
 
 .hero-section >  div{
